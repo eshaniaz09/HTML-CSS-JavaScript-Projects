@@ -1,0 +1,3 @@
+Project-01: IncrementDecrementOnClick
+
+This project, located at the specified directory, demonstrates a simple web interaction using HTML and JavaScript. The "index.html" file serves as the main interface, and it provides buttons that allow users to increment and decrement a numerical value on each click. The functionality is achieved through JavaScript event listeners attached to the buttons. When the "Increment" button is clicked, the displayed number increases by one, and when the "Decrement" button is clicked, the number decreases by one. This project serves as a foundational example for understanding basic web interactivity and event handling using HTML and JavaScript.
