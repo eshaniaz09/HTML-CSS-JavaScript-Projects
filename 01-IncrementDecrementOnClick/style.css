@@ -1,0 +1,47 @@
+/* Google fonts import link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+     align-items: center;  /* horizantialy center in the middle of the screen */
+     justify-content: center ;   /* vertically center in the middle of the screen*/
+     background-color: hsl(300, 85%, 10%);
+}
+
+.wrapper{
+    /* we must have to set height and width to use the display flex */
+    height: 120px;
+    min-width: 380px;
+    background-color: aliceblue;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.wrapper span{
+    width: 100%;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 600;
+    cursor: pointer;
+   
+}
+
+.wrapper span.num{
+   font-size: 50px;
+   border-right: 2px solid rgba(0,0,0,0.2); /* Black color with 20% transparency */
+   border-left: 2px solid rgba(0,0,0,0.2);  /* Black color with 20% transparency */
+}
+
