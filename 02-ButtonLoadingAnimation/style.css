@@ -1,0 +1,91 @@
+/* Google font - poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+    margin : 0px ;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(60, 100%, 50%, 0.848);
+}
+
+.main-div{
+    height: 140px;
+    width: 480px;
+    background-color: aliceblue;
+    border-radius: 12px;
+     font-size: 20;
+    display: block;
+    text-align: center;
+    box-shadow: 0px 5px 10px rgba(0 , 0, 0, 0.2);
+}
+
+.main-div h2{
+    margin: 10px;
+}
+
+.main-div .button{
+
+    height: 55px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    cursor: pointer;
+    font-size: 21px;
+    border-radius: 12px;
+    margin-left: 30%;
+    padding: 10px;
+    user-select: none;
+}
+
+.main-div .button.checked .icon{
+      display: flex;
+}
+
+
+/* css for the rotation of the spin icon  */
+.icon.spinner.spin{   /*this type of div selection is called Compound class selector*/
+    animation: spin 1.3s ease-in-out infinite;
+}
+
+@keyframes spin {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+.main-div .button .btn-text{
+    padding-left: 10px;
+}
+.icon.check{
+    font-size: 19px;
+    height: 25px;
+    width: 25px;
+    background-color: #0eb32f;
+    align-items: center;
+    display: inline-flex;
+    border-radius: 50%;
+
+}
+
+.main-div .button .icon{
+    padding: 5px;
+    color: white;
+    display: none;
+}
+
+
+
+
+
+
