@@ -1,0 +1,75 @@
+/* Google fonts import link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #010718;
+    overflow: hidden;
+}
+.container{
+    width: 600px; 
+    overflow : hidden;
+}
+
+.container .text{
+    display: inline;
+     position: relative;
+     color: #4070F4;
+     font-size: 30px;
+     font-weight: 600;
+}
+.container .text.first-text{
+    color: #FFF;
+
+}
+.text.sec-text:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #010718;
+    border-left: 2px solid #4070F4;
+    animation: animate 4s steps(12) infinite;
+}
+/* @keyframes  specifies how the animation should behave at different points in time */
+@keyframes animate {
+    40%, 60%{
+        left: calc(100% + 4px);
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+
+                                   /* NOTE */
+
+ 
+/* The calc() function is used to perform a calculation. In this case, it's calculating 
+100% + 4px, which means the element's left position will be pushed all the way to the right
+ edge of its containing element plus an additional 4 pixels. This effectively hides the element
+off the visible area to the right. */
+/* 100%: This part of the animation specifies what should happen at 100% progress, which is the
+ end of the animation. */
+/* Inside this block, there's a property: */
+/* left: 0%;: This property sets the horizontal position of the element to 0%. This brings the
+ element back to its original position, which is at the left edge of its containing element. */
+
+
+
+ /* The CSS property overflow is used to control what happens when the content of an element
+  overflows its allotted space. When you set overflow: hidden; on an element, it means that any
+   content that exceeds the element's dimensions will be clipped or hidden, and no scrollbars 
+   will appear to allow the user to scroll and see the hidden content. */
