@@ -44,6 +44,7 @@
     transform: rotate(-225deg);
     transition: all 0.6s ease;
   }
+
   nav.open .toggle-btn{
     transform: rotate(0deg);
   }
@@ -70,3 +71,9 @@
   .nav-content span a:hover i{
     opacity: 1;
   }
+
+
+                                     /* NOTE */
+  /* cursor: grab;, it changes the appearance of the mouse cursor to a closed hand icon,
+   indicating to the user that the element can be clicked and dragged. This is commonly used
+    for elements that have interactive behaviors, such as draggable elements or sliders. */
