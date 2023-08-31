@@ -12,5 +12,5 @@ const toggle = document.querySelector('.toggle');
         toggle.classList.replace("uil-eye" , "uil-eye-slash");
 
     }
- })
+ });
 
