@@ -1,0 +1,114 @@
+/* Google fonts import link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    background-color:#0960ad ;
+}
+
+.container{
+    position: relative;
+    padding: 20px;
+   max-width: 340px; 
+   width: 100%;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container .content{
+    position: relative;
+    height: 50px;
+ 
+}
+
+.container .content input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    padding: 0 35px 0 15px;
+    transition: all 0.2s linear;
+}
+ 
+.content input:is(:focus, :valid){
+    border-color: #0960ad;
+}
+
+
+i{
+    background: none;
+    border: none;
+    font-size: 18px;
+}
+.content :is(label , i){
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    transition: all 0.2s ease;
+}
+.content label{
+    left: 15px;
+    pointer-events: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+input:is(:focus, :valid) ~ label{
+   color: #0960ad;
+   font-size: 12px;
+   font-weight: 500;
+   top: 0;
+   background-color: #fff;
+}
+
+.content i{
+    right: 15px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+input:is(:focus, :valid) ~ i{
+    color: #0960ad;
+ }
+
+                                                   /* NOTE */
+ /*
+  input:is(:focus, :valid):
+ input: This targets HTML input elements, such as text inputs, checkboxes, radio buttons, etc.
+ :is(...): This is a CSS pseudo-class known as the "matches-any" pseudo-class. It allows you to target 
+ elements that match any of the selectors listed within the parentheses.
+ :focus: This targets input elements that are currently in focus. An input element is in focus when a user
+ clicks or tabs into it, making it ready to accept input.
+ :valid: This targets input elements that are considered valid based on their content, often in relation 
+ to their assigned pattern, required, or other attributes.
+ So, input:is(:focus, :valid) targets <input> elements that are both in focus and considered valid according 
+ to their input content or attributes.
+ ~ label:
+ The tilde (~) is a CSS combinator known as the "general sibling combinator." It selects all sibling elements
+ that come after the specified element.
+ label: This targets <label> elements.
+ So, ~ label targets <label> elements that are siblings of the previously targeted input elements and appear
+ later in the HTML structure.
+ color: #0960ad;:
+ This is a CSS declaration that sets the text color of the selected <label> elements to the specified color
+ , which is a shade of blue (#0960ad).
+ To summarize, this CSS code targets <label> elements that are siblings of <input> elements meeting both
+ of the following conditions:
+ The <input> elements are currently in focus (:focus pseudo-class).
+ The <input> elements are considered valid based on their content or attributes (:valid pseudo-class).
+ When these conditions are met, the text color of the associated <label> elements will be changed to
+ the specified blue color (#0960ad).    
+                                                                                                 */
