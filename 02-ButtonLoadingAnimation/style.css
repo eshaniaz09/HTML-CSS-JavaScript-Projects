@@ -86,6 +86,63 @@ body{
 
 
 
+                                              /* Note */
+/* In CSS (Cascading Style Sheets), positions refer to the layout and placement of elements within a web page or document. CSS provides several properties for controlling the positioning of elements on a web page. Here are the main position values and how they work:
+1. `static`:
+   - This is the default position value for most HTML elements.
+   - Elements with `position: static;` are positioned according to the normal flow of the document. They cannot be moved using the `top`, `bottom`, `left`, or `right` properties.
+   
+Example:
+```css
+.element {
+  position: static;
+}
+```
+2. `relative`:
+   - Elements with `position: relative;` are positioned relative to their normal position in the document flow.
+   - You can use the `top`, `bottom`, `left`, and `right` properties to offset the element from its normal position.
+   
+Example:
+```css
+.element {
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+```
+3. `absolute`:
+   - Elements with `position: absolute;` are removed from the normal document flow and positioned relative to the nearest positioned ancestor (an ancestor with a position value other than `static`) or the initial containing block if there's no positioned ancestor.
+   - Use `top`, `bottom`, `left`, and `right` properties to specify the exact position relative to the ancestor.
+   
+Example:
+```css
+.element {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+```
+4. `fixed`:
+   - Elements with `position: fixed;` are removed from the document flow and are positioned relative to the viewport (the browser window).
+   - They stay in the same position even if the user scrolls the page.
+   
+Example:
+```css
+.element {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+```
+5. `sticky`:
+   - Elements with `position: sticky;` behave like `relative` positioning until they reach a specified threshold (e.g., when they scroll out of the viewport), after which they become `fixed` relative to the nearest ancestor with a scrolling mechanism (usually the viewport).
+   - You can use the `top`, `bottom`, `left`, and `right` properties to specify the sticky position.
 
-
+Example:
+```css
+.element {
+  position: sticky;
+  top: 20px;
+}
+*/
 
