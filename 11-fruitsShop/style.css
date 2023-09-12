@@ -1,0 +1,354 @@
+           /* google-fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,600&display=swap');           
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+                     /* styling of the header portion  */
+
+p{
+    color: rgba(0, 0, 0, 0.678);
+
+}                     
+header{
+    background:#e4e4e9;
+    width: 100%;
+    height: 103vh;
+    padding: 10px 50px;
+}
+
+                          /* nav-bar styling */
+
+.nav-bar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+                       /* nav-bar logo-section styling */
+.nav-bar .logo-section{
+    display: flex;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+   
+}
+.nav-bar .logo-section p{
+   color: black;
+}
+.nav-bar .logo-section p{
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.nav-bar .logo-section img{
+    object-fit: contain;
+    height:55px;
+    padding: 5px;
+}
+             /* nav-bar nav-content styling  */
+.nav-bar .nav-content{
+    width:60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-bar .nav-content a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.699);
+   font-size: 19px;
+   cursor: pointer;
+}
+
+.nav-bar .nav-content a:hover{
+    color: rgba(255, 68, 0, 0.822) ;
+}
+
+.nav-bar .nav-content button{
+    text-decoration: none;
+   font-size: 15px;
+   cursor: pointer;
+   padding: 8px;
+   background-color:  rgba(255, 68, 0, 0.822);
+    border: none;
+    color: #f2f3ff;
+    border-radius: 5px;
+}
+   
+    
+      /* welcome page styling */
+header .welcomepage{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.welcomepage .text h1{
+    font-size: 70px;
+} 
+.welcomepage .text p{
+   font-size: 20px;
+   margin-top: 38px;
+   margin-bottom: 38px;
+}
+
+
+.welcomepage .contact-buttons .button1{
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 20px;
+    background-color:  rgba(255, 68, 0, 0.822);
+    border: none;
+     color: #f2f3ff;
+     border-radius: 2px;
+}
+.welcomepage .contact-buttons .button2{
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 20px;
+    background-color:  rgba(0, 0, 0, 0.918);
+    border: none;
+     color: #f2f3ff;
+     margin-left: 15px;
+     border-radius: 2px;
+}
+
+.welcomepage .sideImg img{
+    width: 100vh;
+    height: 60vh;
+}
+
+header{
+    background:#e4e4e9;
+    width: 100%;
+    height: 103vh;
+    padding: 10px 50px;
+}
+
+          /* styling of the section portion  */
+section{
+    width: 100%;
+    height: auto;
+    padding: 10px 50px;
+
+}  
+          /* styling of the services section portion  */
+          
+.servicesSection{
+    margin: 70px 0px 70px 0px;
+}
+section .fresh-fruits .fresh-fruits-text ,
+.servicesSection .services-text{
+  text-align: center;
+}
+.info h1, 
+section .fresh-fruits .fresh-fruits-text h1 ,
+.servicesSection .services-text h1{
+    font-size: 38px;
+    font-weight: 1000;
+}
+.servicesSection .services-cards{
+    margin: 70px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.servicesSection .card{
+    height: 55vh;
+    width: 30%;
+    border: 2px solid rgba(0, 0, 0, 0.082);
+    text-align: center; 
+    padding: 22px;
+   
+}
+
+.servicesSection .card img{
+    height: 23%;
+    margin: 18px 0px;
+}
+
+.servicesSection .card h3{
+    cursor: pointer;
+    font-size: 22px;
+    color: rgba(255, 72, 0, 0.616);
+}
+.servicesSection .card h3:hover{
+    color: rgb(255, 72, 0);
+}
+.servicesSection .services-readmore{
+    text-align: center;
+}
+.servicesSection .services-readmore button{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px 18px;
+    background-color:  rgba(0, 0, 0, 0.918);
+    border: none;
+     color: #f2f3ff;
+     margin-left: 15px;
+     border-radius: 1.5px;
+}
+
+
+          /* styling of the fresh fruits  portion  */
+
+  
+.fresh-fruits .fresh-fruit-content .content{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 70px 0px;
+} 
+
+.fresh-fruits .fresh-fruit-content .content h5{
+    font-size: 35px;
+    font-weight: 400;
+}
+.fresh-fruits .fresh-fruit-content .content .fruitcontent-text p{
+     margin: 30px 0px;
+}
+.fresh-fruits .fresh-fruit-content .content .fruitcontent-text button{
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px 30px;
+    background-color:  rgba(0, 0, 0, 0.918);
+    border: none;
+     color: #f2f3ff;
+     border-radius: 2px;
+}
+
+.fresh-fruits .fresh-fruit-content .content .fruitcontent-text{
+    width: 100%;
+}
+.fresh-fruit-content .content .fruitcontent-img img{
+    height: 12rem;
+    width: auto;
+    margin-right: 20px;
+}
+
+.info{
+    text-align: center;
+    margin: 100px 0px;
+}
+.info h6{
+    color: black;
+    margin-bottom: 70px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.info h5{
+   font-size: 30px;
+   font-weight: 300;
+   margin: 25px 0px 20px 0px;
+}
+
+
+        /* styling of the contact information portion */
+
+.contact-img{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact-img .contact-info h1{
+    font-size: 38px;
+    font-weight: 1000;
+    margin: 80px 0px 40px 0px;
+}
+
+.contact-img .contact-info hr{
+    width: 380%;
+}
+.contact-img .contact-info p{
+    margin-top: 25px;
+}
+.contact-img .contact-info .msg{
+    margin-top: 80px;
+}
+
+.contact-img .contact-info button{
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 42px;
+    background-color:  rgba(255, 68, 0, 0.822);
+    border: none;
+     color: #f2f3ff;
+     border-radius: 2px;
+    margin-top: 65px; 
+}
+
+.contact-img .sideimge{
+    width: 17% ;
+}
+
+.footer{
+
+
+    margin: 180px 0px 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer h6{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    
+}
+
+.footer li{
+    list-style: none;
+    text-decoration: none;
+    font-family:'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.801);
+    margin-bottom: 7px;
+}
+
+.footer .list4 .icons i{
+    margin: 10px;
+    font-size: 25px;
+}
+
+
+.footer .list4 input{
+    padding: 10px;
+    border-color: rgba(0, 0, 0, 0.808);
+}
+.footer .list4 button{
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 7px 42px;
+    background-color:  rgba(255, 68, 0, 0.822);
+    border: none;
+    color: #f2f3ff;
+    border-radius: 2px;
+    margin-top: 15px;
+}
+
+.copyright{
+    margin-top: 80px;
+    border-top: 2px solid #dfe1e9;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dfe1e9;
+}
