@@ -1,0 +1,66 @@
+Responsive website instructions using html and css
+
+---> understanding units 
+     -px
+          ( the value height and width sets in px is fixed in landscape screen  and cannot move or responsive to any 
+         other device)
+     -% 
+           (percentage sets and are responsive according to the parent div or element )
+     -vw $ vh
+           (veiwport-width $ veiwport-height: the height and widthsets in vw and vh are not  according to any parent or 
+            main div . it sets and responsive according to the whole page landscape or portrait. we can also set font-size
+            using vw and vh . the font size using vh is smaller then fontsize using vw in the landscape screen )
+     -vmax & vmin
+            (--vmax  : while  reducing the size of landscape screen  when the width of the screen is less then the height or when
+            the height increases then the vw property changes into vh.
+            --vmin : it is opposite to the vmax, it response first according to the vh and then at perticular stage it changes 
+            into the vw)
+     -em , rem
+            (em : its mostly used with the childern elements and its font size , height, width depends on the parent element.
+            for example the fontsize of the parent div is 20px and having inner element 1em . and if we sets 2em it means the 
+            double of the font size and so on...
+            rem : In rem , r basically stands for the root which means it depends on the size of the screen. the value of one rem
+            is 60px . 1 rem = 60px , 2 rem = 120px and so on...)       
+
+    
+
+---> layout of website 
+                  - absolute vs flex?
+            (try to not  use absolute property becouse it is not responsive. we have to use the property display : flex; justify 
+            content use for the cross access ( y-axes) and align items are used for the main axes (x-axes) )     
+
+
+
+---> flexbox
+       - Display flex
+       - aligining items in x and y axes
+       - flex direction 
+       - flex wrap
+
+
+
+---> CSS Media Queries
+       - min height, min width
+       - min width, max width
+
+
+
+---> Use the calc() function to mantain the height and width
+
+
+
+---> points to keep in mind to make a website responsive
+
+1. CSS flexbox
+2. CSS units
+3. Responsive Typography
+4. Mobile-First Approach
+5. Flexible Images nad Media 
+6. html , body {
+      height = 100%;
+      width = 100%
+}
+
+
+
+practice! practice! practice! practice!
